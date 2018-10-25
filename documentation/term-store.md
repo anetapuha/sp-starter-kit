@@ -8,7 +8,7 @@ For a successful deployment of the SP Starter Kit, certain term store considerat
 Per the project pre-requirements, the account you use when [provisioning](../provisioning) the SP Starter Kit must be manually set as a term store administrator.
 
 <a name="NonEnglishTenants"></a>
-## Non-English tenants
+## Non-English Tenants
 
 The SP Starter Kit end to end provisioning only works with tenants that are configured with the dafault language set to English, i.e. those with culture code 1033 enabled. It is possible that certain tenants have English available, while the default language is not set to 1033. This can cause issues when the provisioning process adds terms to to the term store.
 
